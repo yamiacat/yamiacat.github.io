@@ -12,9 +12,9 @@ The follow up task was to convert to 'new' Roman numerals, where 4 is IV and 9 i
 
 I'll present it here in all its Rube Goldbergian glory! Some features of note:
 
--The number gets converted to a string, because at this point I know how to split strings, but not integers.
--The inclusion of a 'prep_array' full of zeros, because if I'm working with 4 digit numbers, how else would I handle less digits?!
--A comment about the .drop array method, which doesn't actually get used in the finished program. (And which I haven't yet found the answer for, but trial and error during testing suggests 'yes'.)
+- The number gets converted to a string, because at this point I know how to split strings, but not integers.
+- The inclusion of a 'prep_array' full of zeros, because if I'm working with 4 digit numbers, how else would I handle less digits?!
+- A comment about the .drop array method, which doesn't actually get used in the finished program. (And which I haven't yet found the answer for, but trial and error during testing suggests 'yes'.)
 
 {% highlight ruby %}
 def rome(n)
@@ -77,6 +77,6 @@ So yeah - I'm sure there are MUCH more elegant ways of solving this task, and I 
 
 Also, this Entombed album cover suddenly makes a lot more sense:
 
-{{ site.url }}/assets/entombed-dclxvi.jpg
+![Entombed DCLXVI Album Cover]({{ site.url }}/assets/entombed-dclxvi.jpg)
 
 666 = DCLXVI  
