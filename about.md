@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-I have done very little programming or development before starting this course, but I've always been pretty IT literate and, as a bit of a grammar nazi, I'm confident I've got the kind of attention to detail and mentality to make a good developer.
+I have done very little programming or development before starting this course, but I've always been pretty IT literate and, as a bit of a grammar nazi, I'm confident I've got the kind of attention to detail and mentality to make a good developer. ![Me and my giant isopod]({{ site.url }}/assets/mattsopod.jpg)
 
 My personal interests that, sooner or later, I'd imagine I'll code projects for:
 
