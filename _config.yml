@@ -7,7 +7,7 @@
 
 # Site settings
 title: Future Morlock of the Undercity
-email: yamiacat@gmail.com
+email: mr [at] jessica.tech
 description: > # this means to ignore newlines until "baseurl:"
  This primitive blog-type website will document my transition from technical-lightweight Eloi to coding-heavyweight Morlock, as I undertake CodeClan's intensive 16 week diploma in Software Development
 baseurl: "" # the subpath of your site, e.g. /blog
