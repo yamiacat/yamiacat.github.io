@@ -8,8 +8,8 @@
 
     // Positioning context for the mobile navigation icon
     position: relative;
-    background: url(http://mr.jessica.tech/assets/morlocks-banner.jpg) no-repeat center center;
-    background-size: cover;
+    background: url(http://mr.jessica.tech/assets/morlocks-banner.jpg) repeat-x center center;
+    background-size: contain;
 }
 
 .site-title {
