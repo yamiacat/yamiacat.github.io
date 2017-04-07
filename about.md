@@ -4,12 +4,10 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+I have done very little programming or development before starting this course, but I've always been pretty IT literate and, as a bit of a grammar nazi, I'm confident I've got the kind of attention to detail and mentality to make a good developer.
 
-You can find the source code for the Jekyll new theme at:
-{% include icon-github.html username="jglovier" %} /
-[jekyll-new](https://github.com/jglovier/jekyll-new)
+My personal interests that, sooner or later, I'd imagine I'll code projects for:
 
-You can find the source code for Jekyll at
-{% include icon-github.html username="jekyll" %} /
-[jekyll](https://github.com/jekyll/jekyll)
+I'm a longstanding pen & paper rpg geek, and love GMing. My most recent game has seen parallel Rogue Trader and Inquisition plotlines unfold in a Warhammer 40,000 subsector of my own creation, but using the FATE system for mechanics because seriously, f**k percentile systems in general and the WHFRP system and its derivatives in particular!
+
+I love music, and compulsively [scrobble](https://www.last.fm/user/roninserotonin) everything I listen to. Enjoy exploring novel genres, from Ambient to Zouk. 
