@@ -10,8 +10,10 @@ As part of my last job, training the unemployed in employability skills, I somet
 
 To illustrate this point, one of the main tasks my clients would have to undertake would be to set up an email address, which they could just about do while I was there to talk them through each step. I'd then try to instruct them in the process they would need to follow to log back in to their email when I wasn't around. This would usually provoke a storm of detailed note-taking - exactly what link to click, and what it would be next to, and what to ignore, and what to type where. I tried to caution them that web email providers like to change layouts, and any images they mention in their notes will almost certainly be swapped out the next time they come to the site. Also, creating a list of steps to follow in sequence means that if you make one mistake anywhere, the remainder of the list suddenly becomes unusable. My standard speech was "Don't worry too much about HOW you're going to do anything on a computer. It's all about attitude. All you really need to know is roughly what is possible, and then you can probably click around and experiment and you'll figure out how to do it surprisingly quickly."
 
-Well, now I find myself in a roughly analogous position to my former clients. On the one hand, I've discovered that I actually COULD bork my machine with an incautious command. *cough* `sudo rm -fr ~` *cough* I've also ignored my own advice and taken to frantic note taking: 
+Well, now I find myself in a roughly analogous position to my former clients. On the one hand, I've discovered that I actually COULD bork my machine with an incautious command. *cough* `sudo rm -fr ~` *cough* I've also ignored my own advice and taken to frantic note taking:
+
 ![A notebook full of barely legible writing]({{ site.url }}/assets/notebook.jpg)
+
 (Although this is more a kinesthetic exercise to help embed memories than an actual resource to work from.)
 
 At lunch, I got chatting to Dom, a chap from the cohort before mine, and thus 6 or 7 weeks ahead of me, course-wise. He, like myself, hadn't really done any coding before starting the course. I was super gratified when he gave me a version of my old speech, almost word for word! We don't need to memorise the intricacies of every method and function, he said. All we need to know is roughly what's possible, and then a quick google can help us figure out exactly how to do it. It's all about having the right attitude.
@@ -21,5 +23,7 @@ If gaining a skill is a climb, then it can often seem, when looking up at people
 It's learners, all the way up!
 
 Image tangentially related:
+
 ![Turtles all the way down]({{ site.url }}/assets/turtles.jpg)
+
 (Taken from [wikimedia](https://commons.wikimedia.org/wiki/File:Turtles_all_the_way_down.png))
