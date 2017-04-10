@@ -2,7 +2,7 @@
 layout: post
 title:  "Start (Counting) From Zero"
 date:   2017-04-07 12:33:33 +0000
-categories: blogpost, week0
+categories: blogpost week0
 ---
 Right, so, welcome to the very beginning of my blog, reader!
 

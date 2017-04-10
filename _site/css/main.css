@@ -66,10 +66,10 @@ h1, h2, h3, h4, h5, h6 {
  * Links
  */
 a {
-  color: #2a7ae2;
+  color: #414c4c;
   text-decoration: none; }
   a:visited {
-    color: #1756a9; }
+    color: #1e2323; }
   a:hover {
     color: #111;
     text-decoration: underline; }
@@ -165,7 +165,7 @@ pre {
   margin-bottom: 0;
   float: left; }
   .site-title, .site-title:visited {
-    color: #FFF; }
+    color: white; }
 
 .site-nav {
   float: right;
@@ -173,7 +173,7 @@ pre {
   .site-nav .menu-icon {
     display: none; }
   .site-nav .page-link {
-    color: #111;
+    color: white;
     line-height: 1.5; }
     .site-nav .page-link:not(:last-child) {
       margin-right: 20px; }
