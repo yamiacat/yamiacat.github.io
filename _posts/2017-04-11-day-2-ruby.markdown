@@ -1,12 +1,16 @@
 ---
 layout: post
-title:  "Ruby Conditional Operators"
+title:  "Lunchtime Quicky"
 date:   2017-04-11 13:00:33 +0000
 categories: blogpost week1 ruby
 ---
-Day 2, and we're reviewing Ruby conditional operators and control flow...
+Day 2 completed! I bashed out the beginning of this blogpost at lunchtime, intending to come back to it in the evening and flesh it out. 
 
-...and I am experiementing with embedding GitHub gists into Jekyll posts during the lunchbreak.
+As it stands, I had quite a buzz from tackling the homework straight away, including the extension activities, but then I traipsed around Edinburgh buying laundry materials and other knick-knacks, and now I'm shattered.
+
+We were reviewing Ruby conditional operators and control flow, which I was pleasingly familiar with from the pre-course Codecademy.
+
+...and I experiemented, successfully, with embedding GitHub gists into Jekyll posts:
 
 Behold - a gist!
 
