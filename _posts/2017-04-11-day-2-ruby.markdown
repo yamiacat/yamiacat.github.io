@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Ruby Conditional Operators"
-date:   2017-04-10 19:33:33 +0000
+date:   2017-04-11 13:00:33 +0000
 categories: blogpost week1 ruby
 ---
 Day 2, and we're reviewing Ruby conditional operators and control flow...
