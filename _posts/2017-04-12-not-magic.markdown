@@ -1,0 +1,31 @@
+---
+layout: post
+title:  "Sufficiently Advanced Magick..."
+date:   2017-04-12 22:00:33 +0000
+categories: blogpost week1
+---
+
+The last couple of days I have been trying to come to terms with the fact that I have a LOT of useless preconceptions about coding.
+
+One of the first is that **less is more**. The shorter the code, the more elegant it is, right? I've definitely heard people talk about elegant code. It's a *thing*.
+
+Now, I know that Hollywood takes this idea to ridiculous extremes. In movies, with just a few keystrokes (probably made while having a gun held to your head, or in free fall, or inside an alien mothership that inexplicably runs OSX) you can accomplish almost anything!
+
+![Graph showing how silly hacking in movies is]({{site.url}}/assets/hack_the_mainframe.jpg)
+
+(Image taken from [Cracked.com](http://www.cracked.com/photoplasty_2427_19-charts-that-perfectly-explain-hollywood-logic_p4/))
+
+I'm not expecting to reach Christopher-Lambert-in-[Fortress](http://www.imdb.com/title/tt0106950/) levels of code brevity. But I was under the distinct impression that the fewer lines of code you wrote to accomplish a given goal, the better that code was.
+
+Another preconception is **the power of the arcane!** Code looks completely opaque to the uninitiated... it's basically magick\*, and there's a part of me that wants to write condensed code with abbreviated variables and occult method names. After all, *I* know what it means - I can save myself a few dozen keystrokes if I shorten everything down, and if my code is cryptic enough, I may be mistaken for a wizard!
+
+![Ice King from Adventure Time]({{site.url}}/assets/iceking.gif)
+
+Anyway, I'm splitting this post in two as I'm pretty wiped out from a long day at the course, followed by a trip to the cinema to see an [extraordinary documentary](https://en.wikipedia.org/wiki/N%C3%A9nette) about the human condition, told exclusively through close ups of orang-utans' faces. I'll get to my reconceptions tomorrow!
+
+
+
+
+\* In a broader sense I believe that technology actually **is** magick, mind. So far this year I've used a *scrying glass* (webcam), *seven league boots* (train, uber), *magic mirror* (google), *flying carpet* (airplane), *telepathy spell* (mobile phones), *conjuration* (amazon now) and goodness knows what else! We're all living the lives of wizards!
+
+(Extra science fiction and fantasy references added to please [Joe Nash.](https://twitter.com/jna_sh))
