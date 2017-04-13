@@ -39,6 +39,7 @@
     .page-link {
         color: white;
         line-height: $base-line-height;
+        text-decoration: underline;
 
         // Gaps between nav items, but not on the last one
         &:not(:last-child) {
@@ -87,6 +88,7 @@
         .page-link {
             display: block;
             padding: 5px 10px;
+            text-decoration: underline;
 
             &:not(:last-child) {
                 margin-right: 0;
@@ -196,6 +198,7 @@
 .post-link {
     display: block;
     font-size: 24px;
+    text-decoration: underline;
 }
 
 
