@@ -3,8 +3,9 @@ layout: post
 title:  "It's Learners All The Way Up"
 date:   2017-04-10 19:33:33 +0000
 categories: blogpost week1
+comments: true
 ---
-Day 1 of Week 1 completed! 
+Day 1 of Week 1 completed!
 
 As part of my last job, training the unemployed in employability skills, I sometimes had to teach basic IT literacy to people who had literally never touched a mouse or keyboard before. One of the hardest parts of that process was getting them to adopt the right attitude. On the one hand, they had to lose their fear that one wrong click or keystroke could destroy the computer entirely, and on the other hand they had to adjust to the idea that there are always multiple ways of doing the same thing, and it's not necessarily a good idea to try to memorise one particular way.
 
@@ -27,3 +28,24 @@ Image tangentially related:
 ![Turtles all the way down]({{ site.url }}/assets/turtles.jpg)
 
 (Taken from [wikimedia](https://commons.wikimedia.org/wiki/File:Turtles_all_the_way_down.png))
+
+{% if page.comments %} <div id="disqus_thread"></div>
+<script>
+
+/**
+*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+/*
+var disqus_config = function () {
+this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+*/
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+s.src = 'https://futuremorlock.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript> {% endif %}

@@ -3,6 +3,7 @@ layout: post
 title:  "...is Indistinguishable from Technology"
 date:   2017-04-13 13:00:33 +0000
 categories: blogpost week1
+comments: true
 ---
 
 Yesterday I was writing about my coding preconceptions - today I intend to write about my reconceptions! Although having said that, today in class I've been having my consciousness expanded with the introduction of Testing Driven Development!
@@ -33,3 +34,30 @@ TDD helps you get into flow state
 
 
 https://commons.wikimedia.org/wiki/File:Hardenstein_2014_-_Adventurers.jpg
+
+
+
+
+
+
+
+{% if page.comments %} <div id="disqus_thread"></div>
+<script>
+
+/**
+*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+/*
+var disqus_config = function () {
+this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+*/
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+s.src = 'https://futuremorlock.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript> {% endif %}

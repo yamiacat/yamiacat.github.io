@@ -3,6 +3,7 @@ layout: post
 title:  "Early Triumphs"
 date:   2017-04-07 15:33:33 +0000
 categories: ruby week0 metal
+comments: true
 ---
 I've been working my way through Chris Pine's excellent [book on ruby](https://pine.fm/LearnToProgram/) which sets you various challenges as you go. I got a greater sense of accomplishment from tackling these exercises than anything I did on Codecademy, in large part because I was creating files from scratch with a code editor, and then running them from the command line. The sort of virtual environment that Codecademy provides is great for giving instant feedback, but lacks a certain authenticity....
 
@@ -33,8 +34,8 @@ in_roman += "M" * rome_array[-4].to_i
   elsif hunds == 4
     in_roman += "CD"
   else
-    in_roman += "D" * (hunds / 5) 
-    in_roman += "C" * (hunds % 5) 
+    in_roman += "D" * (hunds / 5)
+    in_roman += "C" * (hunds % 5)
   end
 
 
@@ -44,8 +45,8 @@ in_roman += "M" * rome_array[-4].to_i
   elsif tens == 4
     in_roman += "XL"
   else
-    in_roman += "L" * (tens / 5) 
-    in_roman += "X" * (tens % 5) 
+    in_roman += "L" * (tens / 5)
+    in_roman += "X" * (tens % 5)
   end
 
  ones = rome_array[-1].to_i
@@ -54,8 +55,8 @@ in_roman += "M" * rome_array[-4].to_i
   elsif ones == 4
     in_roman += "IV"
   else
-    in_roman += "V" * (ones / 5) 
-    in_roman += "I" * (ones % 5) 
+    in_roman += "V" * (ones / 5)
+    in_roman += "I" * (ones % 5)
   end
 
   return in_roman
@@ -80,3 +81,24 @@ Also, this Entombed album cover suddenly makes a lot more sense:
 ![Entombed DCLXVI Album Cover]({{ site.url }}/assets/entombed-dclxvi.jpg)
 
 666 = DCLXVI  
+
+{% if page.comments %} <div id="disqus_thread"></div>
+<script>
+
+/**
+*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+/*
+var disqus_config = function () {
+this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+*/
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+s.src = 'https://futuremorlock.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript> {% endif %}
