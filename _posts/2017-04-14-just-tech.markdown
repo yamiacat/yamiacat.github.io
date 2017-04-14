@@ -1,0 +1,79 @@
+---
+layout: post
+title:  "...is Indistinguishable from Technology"
+date:   2017-04-14 11:00:33 +0000
+categories: blogpost week1 lit
+comments: true
+---
+
+Wednesday I was writing about my coding preconceptions. Yesterday I *intended* to write about my reconceptions. Instead, I had my consciousness (uncomfortably but excitingly) expanded with the introduction of Testing Driven Development during class, and then attended a meetup of the [Scottish Ruby User Group](http://scotrug.org/). There's a bunch there that I want to write about!
+
+I should probably stick to my guns and finish off my intended thoughts on exactly how my assumptions have turned out to be bunk. Although right now, of course, I'm writing about dithering about deciding what to write. Given the rapid pace with which the course introduces new topics, and all the exciting tech culture stuff I'm encountering outside of it, I'm plunging into the Tristram-Shandian predicament of writing at breakneck pace but making little headway into the narrative! I mean, I've still barely posted about any of the week 0 things I've bookmarked for for further exploration!
+
+![Tristram Shandy book cover]({{site.url}}/assets/Tristram_Shandy.jpg)
+
+Image taken from [here](https://commons.wikimedia.org/wiki/File:Cover_of_Tristram_Shandy_Folio_Society_edition_illustrated_by_John_Lawrence.jpg)
+
+(This book is *fantastic*, by the way - if you haven't read it already [and you're only going to read **one** 18th century novel this year] read it! Also, if you're feeling generous of spirit and want me to get some use out of my English Literature degree, ask me about 'story time' vs 'discourse time'!)
+
+Anyway, one of my preconceptions - that **less is more** - has a certain amount of truth to it. Code shouldn't be brief for brevity's sake, but it *should* be efficient, both to run, but also to write. There's no point writing the same function over and over again at different points in your program, when you could just write it well once and refer to it when you need it. This makes the program more efficient, and it also means that if you later realise you need to tweak that function, you only need to do it once, rather than hunt through reams of code and hope you find every instance of it.
+
+Coders talk about keeping their code D.R.Y., which stands for <b>D</b>on't <b>R</b>epeat <b>Y</b>ourself. I can get behind any activity where laziness and efficiency beautifully coincide! In this respect, coding is similar to scuba diving - make no unnecessary movements and you can spend longer swimming through the cool stuff. (Also, if a parrotfish starts attacking you, you've messed up.)
+
+My code has not been exceptionally DRY so far. I'm a sucker for copy and paste, and it's going to be tricky to get out of that mindset. But I don't want to keep writing whatever the opposite of DRY code is. WET code. DAMP code. SLIMY code.
+
+*M.O.I.S.T.*
+
+My other muddled assumption was about writing **arcane code**. During my pre-course work I'd quite often abbreviate the names of variables, so write "hund" instead of "hundreds", that kind of thing. I also let some algebraic thinking slip in there - if I was temporarily working with a number, I'd call it "n". If I had an unknown variable, I'd call it "x". That makes the code look nice and mathematical, I thought.
+
+NO. BAD.
+
+REALLY BAD.
+
+In fact, one letter variables turn out to be something of a programming joke. There are memes!
+
+![Inspirational style picture with the caption "Single letter variables, who the fuck do you think you are"]({{site.url}}/assets/single-letter-variables.jpg)
+
+Image taken [from](http://theprofoundprogrammer.com/post/26561881517/text-single-letter-variables-who-the-fuck-do)
+
+My instructors have stressed this point, and the fantastic [Terence Eden](https://twitter.com/edent) got in touch to give me some pointers too: **Make your variables descriptive.** The more obvious it is what each variable is meant to be, the better. Even if I was writing code purely for myself, it's still a bad idea to use cryptic variable names, because just because present me knows what's going on, there's an excellent chance that future me is going to be absolutely stumped when he comes back to it.
+
+The odds are, however, that I'll *never* be writing code just for myself, or even just *by* myself. I'm planning to make a career out of this, so I'm going to be collaborating with colleagues. The easier my code is to read, and the more literal my variable names are, the better team mate I'll be. I shouldn't abbreviate variable names, no matter how obvious I think the abbreviations are, because the world is a tiny place now and my colleagues might not be native English speakers.
+
+Code I write for myself, even for some obscure nerdy personal project, is going to be stored online, and who knows? Maybe some nerd half a planet away needs to model pilgrimage routes in a far future techno-feudal star cluster and could benefit from my code, or even contribute to and improve on it! Why make it harder for them? The main point that I need to internalise, is:
+
+#### Code is written once, but read many times. ####
+
+The benefits of collaboration were really drilled into us when we were introduced to GitHub. Following my arcane instincts, I might have been tempted to keep my code to myself until I think it's "presentable" - almost finished, so that when I finally pull away the cover, it emerges fully formed and everyone can marvel at how clever I am.
+
+In fact, doing the exact opposite is going to be best for me. Commit early and often! If I record each little incremental step in my program's evolution, it's going to have numerous benefits. Tracking down where errors crept in is going to be easier. It's insurance against laptop death, as all of my work will be backed up in the cloud. Most importantly, though, it creates a timeline of my thought process. Other programmers can look back at early versions of the code and see how my thinking evolved, and that means they can give me much more focused constructive advice and valuable tips! It's gonna be awesome!
+
+
+tl;dr - We're ALL wizards now. So share your spellbooks.
+
+![Group of cosplay wizards with really nice costumes]({{site.url}}/assets/wizards.jpg)
+
+Image taken [from](https://commons.wikimedia.org/wiki/File:Hardenstein_2014_-_Adventurers.jpg)
+
+
+
+{% if page.comments %} <div id="disqus_thread"></div>
+<script>
+
+/**
+*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+/*
+var disqus_config = function () {
+this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+*/
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+s.src = 'https://futuremorlock.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript> {% endif %}
