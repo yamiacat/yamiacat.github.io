@@ -3,6 +3,7 @@ layout: post
 title:  "Sufficiently Advanced Magick..."
 date:   2017-04-12 22:00:33 +0000
 categories: blogpost week1
+comments: true
 ---
 
 The last couple of days I have been trying to come to terms with the fact that I have a LOT of useless preconceptions about coding.
@@ -29,3 +30,25 @@ Anyway, I'm splitting this post in two as I'm pretty wiped out from a long day a
 \* In a broader sense I believe that technology actually **is** magick, mind. So far this year I've used a *scrying glass* (webcam), *seven league boots* (train, uber), *magic mirror* (google), *flying carpet* (airplane), *telepathy spell* (mobile phones), *conjuration* (amazon now) and goodness knows what else! We're all living the lives of wizards!
 
 (Extra science fiction and fantasy references added to please [Joe Nash.](https://twitter.com/jna_sh))
+
+
+{% if page.comments %} <div id="disqus_thread"></div>
+<script>
+
+/**
+*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+/*
+var disqus_config = function () {
+this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+*/
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+s.src = 'https://futuremorlock.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript> {% endif %}
