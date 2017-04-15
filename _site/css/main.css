@@ -119,7 +119,6 @@ pre {
   margin-left: auto;
   padding-right: 30px;
   padding-left: 30px; }
-  background-color: #325fa8;
   @media screen and (max-width: 800px) {
     .wrapper {
       max-width: -webkit-calc(800px - (30px));
