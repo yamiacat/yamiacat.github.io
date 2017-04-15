@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Future Morlock of the Undercity</title>
+    <description>This primitive blog-type website will document my transition from technical-lightweight Eloi to coding-heavyweight Morlock, as I undertake CodeClan's intensive 16 week diploma in Software Development
+</description>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Fri, 14 Apr 2017 13:01:27 +0100</pubDate>
+    <lastBuildDate>Fri, 14 Apr 2017 13:01:27 +0100</lastBuildDate>
+    <generator>Jekyll v3.4.3</generator>
+    
+      <item>
+        <title>...is Indistinguishable from Technology</title>
+        <description>&lt;p&gt;Wednesday I was writing about my coding preconceptions. Yesterday I &lt;em&gt;intended&lt;/em&gt; to write about my reconceptions. Instead, I had my consciousness (uncomfortably but excitingly) expanded with the introduction of Testing Driven Development during class, and then attended a meetup of the &lt;a href=&quot;http://scotrug.org/&quot;&gt;Scottish Ruby User Group&lt;/a&gt;. There’s a bunch there that I want to write about!&lt;/p&gt;
+
+&lt;p&gt;I should probably stick to my guns and finish off my intended thoughts on exactly how my assumptions have turned out to be bunk. Although right now, of course, I’m writing about dithering about deciding what to write. Given the rapid pace with which the course introduces new topics, and all the exciting tech culture stuff I’m encountering outside of it, I’m plunging into the Tristram-Shandian predicament of writing at breakneck pace but making little headway into the narrative! I mean, I’ve still barely posted about any of the week 0 things I’ve bookmarked for for further exploration!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/Tristram_Shandy.jpg&quot; alt=&quot;Tristram Shandy book cover&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Image taken from &lt;a href=&quot;https://commons.wikimedia.org/wiki/File:Cover_of_Tristram_Shandy_Folio_Society_edition_illustrated_by_John_Lawrence.jpg&quot;&gt;here&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;(This book is &lt;em&gt;fantastic&lt;/em&gt;, by the way - if you haven’t read it already [and you’re only going to read &lt;strong&gt;one&lt;/strong&gt; 18th century novel this year] read it! Also, if you’re feeling generous of spirit and want me to get some use out of my English Literature degree, ask me about ‘story time’ vs ‘discourse time’!)&lt;/p&gt;
+
+&lt;p&gt;Anyway, one of my preconceptions - that &lt;strong&gt;less is more&lt;/strong&gt; - has a certain amount of truth to it. Code shouldn’t be brief for brevity’s sake, but it &lt;em&gt;should&lt;/em&gt; be efficient, both to run, but also to write. There’s no point writing the same function over and over again at different points in your program, when you could just write it well once and refer to it when you need it. This makes the program more efficient, and it also means that if you later realise you need to tweak that function, you only need to do it once, rather than hunt through reams of code and hope you find every instance of it.&lt;/p&gt;
+
+&lt;p&gt;Coders talk about keeping their code D.R.Y., which stands for &lt;b&gt;D&lt;/b&gt;on’t &lt;b&gt;R&lt;/b&gt;epeat &lt;b&gt;Y&lt;/b&gt;ourself. I can get behind any activity where laziness and efficiency beautifully coincide! In this respect, coding is similar to scuba diving - make no unnecessary movements and you can spend longer swimming through the cool stuff. (Also, if a parrotfish starts attacking you, you’ve messed up.)&lt;/p&gt;
+
+&lt;p&gt;My code has not been exceptionally DRY so far. I’m a sucker for copy and paste, and it’s going to be tricky to get out of that mindset. But I don’t want to keep writing whatever the opposite of DRY code is. WET code. DAMP code. SLIMY code.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;M.O.I.S.T.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;My other muddled assumption was about writing &lt;strong&gt;arcane code&lt;/strong&gt;. During my pre-course work I’d quite often abbreviate the names of variables, so write “hund” instead of “hundreds”, that kind of thing. I also let some algebraic thinking slip in there - if I was temporarily working with a number, I’d call it “n”. If I had an unknown variable, I’d call it “x”. That makes the code look nice and mathematical, I thought.&lt;/p&gt;
+
+&lt;p&gt;NO. BAD.&lt;/p&gt;
+
+&lt;p&gt;REALLY BAD.&lt;/p&gt;
+
+&lt;p&gt;In fact, one letter variables turn out to be something of a programming joke. There are memes!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/single-letter-variables.jpg&quot; alt=&quot;Inspirational style picture with the caption &amp;quot;Single letter variables, who the fuck do you think you are&amp;quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Image taken &lt;a href=&quot;http://theprofoundprogrammer.com/post/26561881517/text-single-letter-variables-who-the-fuck-do&quot;&gt;from&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;My instructors have stressed this point, and the fantastic &lt;a href=&quot;https://twitter.com/edent&quot;&gt;Terence Eden&lt;/a&gt; got in touch to give me some pointers too: &lt;strong&gt;Make your variables descriptive.&lt;/strong&gt; The more obvious it is what each variable is meant to be, the better. Even if I was writing code purely for myself, it’s still a bad idea to use cryptic variable names, because just because present me knows what’s going on, there’s an excellent chance that future me is going to be absolutely stumped when he comes back to it.&lt;/p&gt;
+
+&lt;p&gt;The odds are, however, that I’ll &lt;em&gt;never&lt;/em&gt; be writing code just for myself, or even just &lt;em&gt;by&lt;/em&gt; myself. I’m planning to make a career out of this, so I’m going to be collaborating with colleagues. The easier my code is to read, and the more literal my variable names are, the better team mate I’ll be. I shouldn’t abbreviate variable names, no matter how obvious I think the abbreviations are, because the world is a tiny place now and my colleagues might not be native English speakers.&lt;/p&gt;
+
+&lt;p&gt;Code I write for myself, even for some obscure nerdy personal project, is going to be stored online, and who knows? Maybe some nerd half a planet away needs to model pilgrimage routes in a far future techno-feudal star cluster and could benefit from my code, or even contribute to and improve on it! Why make it harder for them? The main point that I need to internalise, is:&lt;/p&gt;
+
+&lt;h4 id=&quot;code-is-written-once-but-read-many-times&quot;&gt;Code is written once, but read many times.&lt;/h4&gt;
+
+&lt;p&gt;The benefits of collaboration were really drilled into us when we were introduced to GitHub. Following my arcane instincts, I might have been tempted to keep my code to myself until I think it’s “presentable” - almost finished, so that when I finally pull away the cover, it emerges fully formed and everyone can marvel at how clever I am.&lt;/p&gt;
+
+&lt;p&gt;In fact, doing the exact opposite is going to be best for me. Commit early and often! If I record each little incremental step in my program’s evolution, it’s going to have numerous benefits. Tracking down where errors crept in is going to be easier. It’s insurance against laptop death, as all of my work will be backed up in the cloud. Most importantly, though, it creates a timeline of my thought process. Other programmers can look back at early versions of the code and see how my thinking evolved, and that means they can give me much more focused constructive advice and valuable tips! It’s gonna be awesome!&lt;/p&gt;
+
+&lt;p&gt;tl;dr - We’re ALL wizards now. So share your spellbooks.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/wizards.jpg&quot; alt=&quot;Group of cosplay wizards with really nice costumes&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Image taken &lt;a href=&quot;https://commons.wikimedia.org/wiki/File:Hardenstein_2014_-_Adventurers.jpg&quot;&gt;from&lt;/a&gt;&lt;/p&gt;
+
+&lt;div id=&quot;disqus_thread&quot;&gt;&lt;/div&gt;
+&lt;script&gt;
+
+/**
+*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+/*
+var disqus_config = function () {
+this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+*/
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+s.src = 'https://futuremorlock.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+&lt;/script&gt;
+
+&lt;noscript&gt;Please enable JavaScript to view the &lt;a href=&quot;https://disqus.com/?ref_noscript&quot;&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;
+</description>
+        <pubDate>Fri, 14 Apr 2017 12:00:33 +0100</pubDate>
+        <link>http://localhost:4000/blogpost/week1/lit/2017/04/14/just-tech.html</link>
+        <guid isPermaLink="true">http://localhost:4000/blogpost/week1/lit/2017/04/14/just-tech.html</guid>
+        
+        
+        <category>blogpost</category>
+        
+        <category>week1</category>
+        
+        <category>lit</category>
+        
+      </item>
+    
+      <item>
+        <title>Sufficiently Advanced Magick...</title>
+        <description>&lt;p&gt;The last couple of days I have been trying to come to terms with the fact that I have a LOT of useless preconceptions about coding.&lt;/p&gt;
+
+&lt;p&gt;One of the first is that &lt;strong&gt;less is more&lt;/strong&gt;. The shorter the code, the more elegant it is, right? I’ve definitely heard people talk about elegant code. It’s a &lt;em&gt;thing&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;Now, I know that Hollywood takes this idea to ridiculous extremes. In movies, with just a few keystrokes (probably made while having a gun held to your head, or in free fall, or inside an alien mothership that inexplicably runs OSX) you can accomplish almost anything!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/hack_the_mainframe.jpg&quot; alt=&quot;Graph showing how silly hacking in movies is&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;(Image taken from &lt;a href=&quot;http://www.cracked.com/photoplasty_2427_19-charts-that-perfectly-explain-hollywood-logic_p4/&quot;&gt;Cracked.com&lt;/a&gt;)&lt;/p&gt;
+
+&lt;p&gt;I’m not expecting to reach Christopher-Lambert-in-&lt;a href=&quot;http://www.imdb.com/title/tt0106950/&quot;&gt;Fortress&lt;/a&gt; levels of code brevity. But I was under the distinct impression that the fewer lines of code you wrote to accomplish a given goal, the better that code was.&lt;/p&gt;
+
+&lt;p&gt;Another preconception is &lt;strong&gt;the power of the arcane!&lt;/strong&gt; Code looks completely opaque to the uninitiated… it’s basically magick*, and there’s a part of me that wants to write condensed code with abbreviated variables and occult method names. After all, &lt;em&gt;I&lt;/em&gt; know what it means - I can save myself a few dozen keystrokes if I shorten everything down, and if my code is cryptic enough, I may be mistaken for a wizard!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/iceking.gif&quot; alt=&quot;Ice King from Adventure Time&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Anyway, I’m splitting this post in two as I’m pretty wiped out from a long day at the course, followed by a trip to the cinema to see an &lt;a href=&quot;https://en.wikipedia.org/wiki/N%C3%A9nette&quot;&gt;extraordinary documentary&lt;/a&gt; about the human condition, told exclusively through close ups of orang-utans’ faces. I’ll get to my reconceptions tomorrow!&lt;/p&gt;
+
+&lt;p&gt;* In a broader sense I believe that technology actually &lt;strong&gt;is&lt;/strong&gt; magick, mind. So far this year I’ve used a &lt;em&gt;scrying glass&lt;/em&gt; (webcam), &lt;em&gt;seven league boots&lt;/em&gt; (train, uber), &lt;em&gt;magic mirror&lt;/em&gt; (google), &lt;em&gt;flying carpet&lt;/em&gt; (airplane), &lt;em&gt;telepathy spell&lt;/em&gt; (mobile phones), &lt;em&gt;conjuration&lt;/em&gt; (amazon now) and goodness knows what else! We’re all living the lives of wizards!&lt;/p&gt;
+
+&lt;p&gt;(Extra science fiction and fantasy references added to please &lt;a href=&quot;https://twitter.com/jna_sh&quot;&gt;Joe Nash.&lt;/a&gt;)&lt;/p&gt;
+
+&lt;div id=&quot;disqus_thread&quot;&gt;&lt;/div&gt;
+&lt;script&gt;
+
+/**
+*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+/*
+var disqus_config = function () {
+this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+*/
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+s.src = 'https://futuremorlock.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+&lt;/script&gt;
+
+&lt;noscript&gt;Please enable JavaScript to view the &lt;a href=&quot;https://disqus.com/?ref_noscript&quot;&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;
+</description>
+        <pubDate>Wed, 12 Apr 2017 23:00:33 +0100</pubDate>
+        <link>http://localhost:4000/blogpost/week1/2017/04/12/not-magic.html</link>
+        <guid isPermaLink="true">http://localhost:4000/blogpost/week1/2017/04/12/not-magic.html</guid>
+        
+        
+        <category>blogpost</category>
+        
+        <category>week1</category>
+        
+      </item>
+    
+      <item>
+        <title>Lunchtime Quicky</title>
+        <description>&lt;p&gt;Day 2 completed! I bashed out the beginning of this blogpost at lunchtime, intending to come back to it in the evening and flesh it out.&lt;/p&gt;
+
+&lt;p&gt;As it stands, I had quite a buzz from tackling the homework straight away, including the extension activities, but then I traipsed around Edinburgh buying laundry materials and other knick-knacks, and now I’m shattered.&lt;/p&gt;
+
+&lt;p&gt;We were reviewing Ruby conditional operators and control flow, which I was pleasingly familiar with from the pre-course Codecademy.&lt;/p&gt;
+
+&lt;p&gt;…and I experiemented, successfully, with embedding GitHub gists into Jekyll posts:&lt;/p&gt;
+
+&lt;p&gt;Behold - a gist!&lt;/p&gt;
+
+&lt;script src=&quot;https://gist.github.com/yamiacat/16e9b84352618e22d303221f3723730e.js&quot;&gt;&lt;/script&gt;
+
+&lt;div id=&quot;disqus_thread&quot;&gt;&lt;/div&gt;
+&lt;script&gt;
+
+/**
+*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+/*
+var disqus_config = function () {
+this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+*/
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+s.src = 'https://futuremorlock.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+&lt;/script&gt;
+
+&lt;noscript&gt;Please enable JavaScript to view the &lt;a href=&quot;https://disqus.com/?ref_noscript&quot;&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;
+</description>
+        <pubDate>Tue, 11 Apr 2017 14:00:33 +0100</pubDate>
+        <link>http://localhost:4000/blogpost/week1/ruby/2017/04/11/day-2-ruby.html</link>
+        <guid isPermaLink="true">http://localhost:4000/blogpost/week1/ruby/2017/04/11/day-2-ruby.html</guid>
+        
+        
+        <category>blogpost</category>
+        
+        <category>week1</category>
+        
+        <category>ruby</category>
+        
+      </item>
+    
+      <item>
+        <title>It's Learners All The Way Up</title>
+        <description>&lt;p&gt;Day 1 of Week 1 completed!&lt;/p&gt;
+
+&lt;p&gt;As part of my last job, training the unemployed in employability skills, I sometimes had to teach basic IT literacy to people who had literally never touched a mouse or keyboard before. One of the hardest parts of that process was getting them to adopt the right attitude. On the one hand, they had to lose their fear that one wrong click or keystroke could destroy the computer entirely, and on the other hand they had to adjust to the idea that there are always multiple ways of doing the same thing, and it’s not necessarily a good idea to try to memorise one particular way.&lt;/p&gt;
+
+&lt;p&gt;To illustrate this point, one of the main tasks my clients would have to undertake would be to set up an email address, which they could just about do while I was there to talk them through each step. I’d then try to instruct them in the process they would need to follow to log back in to their email when I wasn’t around. This would usually provoke a storm of detailed note-taking - exactly what link to click, and what it would be next to, and what to ignore, and what to type where. I tried to caution them that web email providers like to change layouts, and any images they mention in their notes will almost certainly be swapped out the next time they come to the site. Also, creating a list of steps to follow in sequence means that if you make one mistake anywhere, the remainder of the list suddenly becomes unusable. My standard speech was “Don’t worry too much about HOW you’re going to do anything on a computer. It’s all about attitude. All you really need to know is roughly what is possible, and then you can probably click around and experiment and you’ll figure out how to do it surprisingly quickly.”&lt;/p&gt;
+
+&lt;p&gt;Well, now I find myself in a roughly analogous position to my former clients. On the one hand, I’ve discovered that I actually COULD bork my machine with an incautious command. &lt;em&gt;cough&lt;/em&gt; &lt;code class=&quot;highlighter-rouge&quot;&gt;sudo rm -fr ~&lt;/code&gt; &lt;em&gt;cough&lt;/em&gt; I’ve also ignored my own advice and taken to frantic note taking:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/notebook.jpg&quot; alt=&quot;A notebook full of barely legible writing&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;(Although this is more a kinesthetic exercise to help embed memories than an actual resource to work from.)&lt;/p&gt;
+
+&lt;p&gt;At lunch, I got chatting to Dom, a chap from the cohort before mine, and thus 6 or 7 weeks ahead of me, course-wise. He, like myself, hadn’t really done any coding before starting the course. I was super gratified when he gave me a version of my old speech, almost word for word! We don’t need to memorise the intricacies of every method and function, he said. All we need to know is roughly what’s possible, and then a quick google can help us figure out exactly how to do it. It’s all about having the right attitude.&lt;/p&gt;
+
+&lt;p&gt;If gaining a skill is a climb, then it can often seem, when looking up at people more knowledgeable than you, that their expertise is fully formed - almost mystical. You can’t help but compare your own fumbling with their seemingly effortless competence. And yet they got to where they are one hand hold at a time, and continue to fumble for the next hold just as you do.&lt;/p&gt;
+
+&lt;p&gt;It’s learners, all the way up!&lt;/p&gt;
+
+&lt;p&gt;Image tangentially related:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/turtles.jpg&quot; alt=&quot;Turtles all the way down&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;(Taken from &lt;a href=&quot;https://commons.wikimedia.org/wiki/File:Turtles_all_the_way_down.png&quot;&gt;wikimedia&lt;/a&gt;)&lt;/p&gt;
+
+&lt;div id=&quot;disqus_thread&quot;&gt;&lt;/div&gt;
+&lt;script&gt;
+
+/**
+*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+/*
+var disqus_config = function () {
+this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+*/
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+s.src = 'https://futuremorlock.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+&lt;/script&gt;
+
+&lt;noscript&gt;Please enable JavaScript to view the &lt;a href=&quot;https://disqus.com/?ref_noscript&quot;&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;
+</description>
+        <pubDate>Mon, 10 Apr 2017 20:33:33 +0100</pubDate>
+        <link>http://localhost:4000/blogpost/week1/2017/04/10/day-1.html</link>
+        <guid isPermaLink="true">http://localhost:4000/blogpost/week1/2017/04/10/day-1.html</guid>
+        
+        
+        <category>blogpost</category>
+        
+        <category>week1</category>
+        
+      </item>
+    
+      <item>
+        <title>Early Triumphs</title>
+        <description>&lt;p&gt;I’ve been working my way through Chris Pine’s excellent &lt;a href=&quot;https://pine.fm/LearnToProgram/&quot;&gt;book on ruby&lt;/a&gt; which sets you various challenges as you go. I got a greater sense of accomplishment from tackling these exercises than anything I did on Codecademy, in large part because I was creating files from scratch with a code editor, and then running them from the command line. The sort of virtual environment that Codecademy provides is great for giving instant feedback, but lacks a certain authenticity….&lt;/p&gt;
+
+&lt;p&gt;Anyway, an early task involves writing a little program that converts a number to its Roman numeral equivalent. Initially, old style Roman numerals, which are purely additive, so 4 is IIII, and 9 is VIIII. I found that task fairly straightforward, although if you &lt;a href=&quot;https://github.com/yamiacat/ruby_practice/blob/master/nums_old_roman.rb&quot;&gt;look at my code&lt;/a&gt; you can see that I haven’t yet managed to grok modulo division. Like, at all.&lt;/p&gt;
+
+&lt;p&gt;The follow up task was to convert to ‘new’ Roman numerals, where 4 is IV and 9 is IX, and all that subtractive nonsense. This had me stumped for while. I worked on it without much success for the best part of a day. I found that I was still thinking about it over night, and when I woke in the morning I had some additional ideas about how to proceed, which was pretty gratifying!&lt;/p&gt;
+
+&lt;p&gt;I’ll present it here in all its Rube Goldbergian glory! Some features of note:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;The number gets converted to a string, because at this point I know how to split strings, but not integers.&lt;/li&gt;
+  &lt;li&gt;The inclusion of a ‘prep_array’ full of zeros, because if I’m working with 4 digit numbers, how else would I handle less digits?!&lt;/li&gt;
+  &lt;li&gt;A comment about the .drop array method, which doesn’t actually get used in the finished program. (And which I haven’t yet found the answer for, but trial and error during testing suggests ‘yes’.)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;rome&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;n&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;prep_array&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;first_array&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;n&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;to_s&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;split&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;//&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;rome_array&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;prep_array&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;first_array&lt;/span&gt;
+     &lt;span class=&quot;c1&quot;&gt;# DOES .drop(n) START COUNTING AT ZERO FROM THE OTHER END!?&lt;/span&gt;
+ &lt;span class=&quot;n&quot;&gt;in_roman&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&quot;&lt;/span&gt;
+
+
+&lt;span class=&quot;n&quot;&gt;in_roman&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+=&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;M&quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;rome_array&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;].&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;to_i&lt;/span&gt;
+
+ &lt;span class=&quot;n&quot;&gt;hunds&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;rome_array&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;].&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;to_i&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;hunds&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;9&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;in_roman&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+=&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;CM&quot;&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;elsif&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;hunds&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;in_roman&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+=&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;CD&quot;&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;else&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;in_roman&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+=&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;D&quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;hunds&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;/&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;in_roman&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+=&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;C&quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;hunds&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;%&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+
+
+ &lt;span class=&quot;n&quot;&gt;tens&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;rome_array&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;].&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;to_i&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;tens&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;9&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;in_roman&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+=&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;XC&quot;&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;elsif&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;tens&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;in_roman&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+=&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;XL&quot;&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;else&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;in_roman&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+=&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;L&quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;tens&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;/&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;in_roman&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+=&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;X&quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;tens&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;%&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+
+ &lt;span class=&quot;n&quot;&gt;ones&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;rome_array&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;].&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;to_i&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ones&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;9&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;in_roman&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+=&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;IX&quot;&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;elsif&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ones&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;in_roman&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+=&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;IV&quot;&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;else&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;in_roman&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+=&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;V&quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ones&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;/&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;in_roman&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+=&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;I&quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ones&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;%&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+
+  &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;in_roman&lt;/span&gt;
+
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+
+&lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Gimme a number between 1 and 3500 and I'll give you the new timey Roman numerals version!&quot;&lt;/span&gt;
+
+&lt;span class=&quot;n&quot;&gt;input&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;gets&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;chomp&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;to_i&lt;/span&gt;
+
+&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;input&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;||&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;input&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;3500&lt;/span&gt;
+  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Just gimme a number within the range, wiseguy!&quot;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;else&lt;/span&gt;
+  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;rome&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;input&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;So yeah - I’m sure there are MUCH more elegant ways of solving this task, and I clearly still don’t grok modulo division, but I was very proud of myself for putting together something that worked, based on my 2 weeks or so of ruby study!&lt;/p&gt;
+
+&lt;p&gt;Also, this Entombed album cover suddenly makes a lot more sense:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/entombed-dclxvi.jpg&quot; alt=&quot;Entombed DCLXVI Album Cover&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;666 = DCLXVI&lt;/p&gt;
+
+&lt;div id=&quot;disqus_thread&quot;&gt;&lt;/div&gt;
+&lt;script&gt;
+
+/**
+*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+/*
+var disqus_config = function () {
+this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+*/
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+s.src = 'https://futuremorlock.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+&lt;/script&gt;
+
+&lt;noscript&gt;Please enable JavaScript to view the &lt;a href=&quot;https://disqus.com/?ref_noscript&quot;&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;
+</description>
+        <pubDate>Fri, 07 Apr 2017 16:33:33 +0100</pubDate>
+        <link>http://localhost:4000/ruby/week0/metal/2017/04/07/first-triumphs.html</link>
+        <guid isPermaLink="true">http://localhost:4000/ruby/week0/metal/2017/04/07/first-triumphs.html</guid>
+        
+        
+        <category>ruby</category>
+        
+        <category>week0</category>
+        
+        <category>metal</category>
+        
+      </item>
+    
+      <item>
+        <title>Start (Counting) From Zero</title>
+        <description>&lt;p&gt;Right, so, welcome to the very beginning of my blog, reader!&lt;/p&gt;
+
+&lt;p&gt;I am just wrapping up the third week of pre-course work for CodeClan’s 16 week Diploma in Software Development, which I’ll be undertaking in Edinburgh. Monday 10 April marks the beginning of week 1, so I guess that makes this week 0, and starting to count from zero is apparently one of the little cognitive tweaks I need to make, so let’s start now.&lt;/p&gt;
+
+&lt;p&gt;As part of this pre-course work, I’ve been working through some of &lt;a href=&quot;https://www.codecademy.com&quot;&gt;Codecademy’s&lt;/a&gt; basic tracks, learning how to use the command line, git, ruby, and basic html and css. One of the activities, labelled “Deploy a Website”, actually turned out to use &lt;a href=&quot;http://jekyllrb.com/&quot;&gt;Jekyll&lt;/a&gt; to auto-generate this site!? I had been kind of planning to create something from scratch to practice the basics, but fine, let’s stick with this for now…&lt;/p&gt;
+
+&lt;div id=&quot;disqus_thread&quot;&gt;&lt;/div&gt;
+&lt;script&gt;
+
+/**
+*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+/*
+var disqus_config = function () {
+this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+*/
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+s.src = 'https://futuremorlock.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+&lt;/script&gt;
+
+&lt;noscript&gt;Please enable JavaScript to view the &lt;a href=&quot;https://disqus.com/?ref_noscript&quot;&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;
+</description>
+        <pubDate>Fri, 07 Apr 2017 13:33:33 +0100</pubDate>
+        <link>http://localhost:4000/blogpost/week0/2017/04/07/intro-post.html</link>
+        <guid isPermaLink="true">http://localhost:4000/blogpost/week0/2017/04/07/intro-post.html</guid>
+        
+        
+        <category>blogpost</category>
+        
+        <category>week0</category>
+        
+      </item>
+    
+  </channel>
+</rss>

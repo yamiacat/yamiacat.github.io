@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>...is Indistinguishable from Technology</title>
+  <meta name="description" content="Wednesday I was writing about my coding preconceptions. Yesterday I intended to write about my reconceptions. Instead, I had my consciousness (uncomfortably ...">
+
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="canonical" href="http://localhost:4000/blogpost/week1/lit/2017/04/14/just-tech.html">
+  <link rel="alternate" type="application/rss+xml" title="Future Morlock of the Undercity" href="http://localhost:4000/feed.xml">
+</head>
+
+
+  <body>
+
+    <header class="site-header">
+
+  <div class="wrapper">
+
+    <a class="site-title" href="/">Future Morlock of the Undercity</a>
+
+    <nav class="site-nav">
+      <a href="#" class="menu-icon">
+        <svg viewBox="0 0 18 15">
+          <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+          <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+          <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+        </svg>
+      </a>
+
+      <div class="trigger">
+        
+          
+          <a class="page-link" href="/about/">About</a>
+          
+        
+          
+        
+          
+        
+          
+        
+      </div>
+    </nav>
+
+  </div>
+
+</header>
+
+
+    <div class="page-content">
+      <div class="wrapper">
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">...is Indistinguishable from Technology</h1>
+    <p class="post-meta"><time datetime="2017-04-14T12:00:33+01:00" itemprop="datePublished">Apr 14, 2017</time></p>
+  </header>
+
+  <div class="post-content" itemprop="articleBody">
+    <p>Wednesday I was writing about my coding preconceptions. Yesterday I <em>intended</em> to write about my reconceptions. Instead, I had my consciousness (uncomfortably but excitingly) expanded with the introduction of Testing Driven Development during class, and then attended a meetup of the <a href="http://scotrug.org/">Scottish Ruby User Group</a>. There’s a bunch there that I want to write about!</p>
+
+<p>I should probably stick to my guns and finish off my intended thoughts on exactly how my assumptions have turned out to be bunk. Although right now, of course, I’m writing about dithering about deciding what to write. Given the rapid pace with which the course introduces new topics, and all the exciting tech culture stuff I’m encountering outside of it, I’m plunging into the Tristram-Shandian predicament of writing at breakneck pace but making little headway into the narrative! I mean, I’ve still barely posted about any of the week 0 things I’ve bookmarked for for further exploration!</p>
+
+<p><img src="http://localhost:4000/assets/Tristram_Shandy.jpg" alt="Tristram Shandy book cover" /></p>
+
+<p>Image taken from <a href="https://commons.wikimedia.org/wiki/File:Cover_of_Tristram_Shandy_Folio_Society_edition_illustrated_by_John_Lawrence.jpg">here</a></p>
+
+<p>(This book is <em>fantastic</em>, by the way - if you haven’t read it already [and you’re only going to read <strong>one</strong> 18th century novel this year] read it! Also, if you’re feeling generous of spirit and want me to get some use out of my English Literature degree, ask me about ‘story time’ vs ‘discourse time’!)</p>
+
+<p>Anyway, one of my preconceptions - that <strong>less is more</strong> - has a certain amount of truth to it. Code shouldn’t be brief for brevity’s sake, but it <em>should</em> be efficient, both to run, but also to write. There’s no point writing the same function over and over again at different points in your program, when you could just write it well once and refer to it when you need it. This makes the program more efficient, and it also means that if you later realise you need to tweak that function, you only need to do it once, rather than hunt through reams of code and hope you find every instance of it.</p>
+
+<p>Coders talk about keeping their code D.R.Y., which stands for <b>D</b>on’t <b>R</b>epeat <b>Y</b>ourself. I can get behind any activity where laziness and efficiency beautifully coincide! In this respect, coding is similar to scuba diving - make no unnecessary movements and you can spend longer swimming through the cool stuff. (Also, if a parrotfish starts attacking you, you’ve messed up.)</p>
+
+<p>My code has not been exceptionally DRY so far. I’m a sucker for copy and paste, and it’s going to be tricky to get out of that mindset. But I don’t want to keep writing whatever the opposite of DRY code is. WET code. DAMP code. SLIMY code.</p>
+
+<p><em>M.O.I.S.T.</em></p>
+
+<p>My other muddled assumption was about writing <strong>arcane code</strong>. During my pre-course work I’d quite often abbreviate the names of variables, so write “hund” instead of “hundreds”, that kind of thing. I also let some algebraic thinking slip in there - if I was temporarily working with a number, I’d call it “n”. If I had an unknown variable, I’d call it “x”. That makes the code look nice and mathematical, I thought.</p>
+
+<p>NO. BAD.</p>
+
+<p>REALLY BAD.</p>
+
+<p>In fact, one letter variables turn out to be something of a programming joke. There are memes!</p>
+
+<p><img src="http://localhost:4000/assets/single-letter-variables.jpg" alt="Inspirational style picture with the caption &quot;Single letter variables, who the fuck do you think you are&quot;" /></p>
+
+<p>Image taken <a href="http://theprofoundprogrammer.com/post/26561881517/text-single-letter-variables-who-the-fuck-do">from</a></p>
+
+<p>My instructors have stressed this point, and the fantastic <a href="https://twitter.com/edent">Terence Eden</a> got in touch to give me some pointers too: <strong>Make your variables descriptive.</strong> The more obvious it is what each variable is meant to be, the better. Even if I was writing code purely for myself, it’s still a bad idea to use cryptic variable names, because just because present me knows what’s going on, there’s an excellent chance that future me is going to be absolutely stumped when he comes back to it.</p>
+
+<p>The odds are, however, that I’ll <em>never</em> be writing code just for myself, or even just <em>by</em> myself. I’m planning to make a career out of this, so I’m going to be collaborating with colleagues. The easier my code is to read, and the more literal my variable names are, the better team mate I’ll be. I shouldn’t abbreviate variable names, no matter how obvious I think the abbreviations are, because the world is a tiny place now and my colleagues might not be native English speakers.</p>
+
+<p>Code I write for myself, even for some obscure nerdy personal project, is going to be stored online, and who knows? Maybe some nerd half a planet away needs to model pilgrimage routes in a far future techno-feudal star cluster and could benefit from my code, or even contribute to and improve on it! Why make it harder for them? The main point that I need to internalise, is:</p>
+
+<h4 id="code-is-written-once-but-read-many-times">Code is written once, but read many times.</h4>
+
+<p>The benefits of collaboration were really drilled into us when we were introduced to GitHub. Following my arcane instincts, I might have been tempted to keep my code to myself until I think it’s “presentable” - almost finished, so that when I finally pull away the cover, it emerges fully formed and everyone can marvel at how clever I am.</p>
+
+<p>In fact, doing the exact opposite is going to be best for me. Commit early and often! If I record each little incremental step in my program’s evolution, it’s going to have numerous benefits. Tracking down where errors crept in is going to be easier. It’s insurance against laptop death, as all of my work will be backed up in the cloud. Most importantly, though, it creates a timeline of my thought process. Other programmers can look back at early versions of the code and see how my thinking evolved, and that means they can give me much more focused constructive advice and valuable tips! It’s gonna be awesome!</p>
+
+<p>tl;dr - We’re ALL wizards now. So share your spellbooks.</p>
+
+<p><img src="http://localhost:4000/assets/wizards.jpg" alt="Group of cosplay wizards with really nice costumes" /></p>
+
+<p>Image taken <a href="https://commons.wikimedia.org/wiki/File:Hardenstein_2014_-_Adventurers.jpg">from</a></p>
+
+<div id="disqus_thread"></div>
+<script>
+
+/**
+*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+/*
+var disqus_config = function () {
+this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+*/
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+s.src = 'https://futuremorlock.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+  </div>
+
+</article>
+
+      </div>
+    </div>
+
+    <footer class="site-footer">
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">Travelling to 802,701 AD, at One Minute Per Minute!</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li>Future Morlock of the Undercity</li>
+          <li><a href="mailto:mr [at] jessica.tech">mr [at] jessica.tech</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-2">
+        <ul class="social-media-list">
+          
+          <li>
+            <a href="https://github.com/yamiacat"><span class="icon icon--github"><svg viewBox="0 0 16 16"><path fill="#828282" d="M7.999,0.431c-4.285,0-7.76,3.474-7.76,7.761 c0,3.428,2.223,6.337,5.307,7.363c0.388,0.071,0.53-0.168,0.53-0.374c0-0.184-0.007-0.672-0.01-1.32 c-2.159,0.469-2.614-1.04-2.614-1.04c-0.353-0.896-0.862-1.135-0.862-1.135c-0.705-0.481,0.053-0.472,0.053-0.472 c0.779,0.055,1.189,0.8,1.189,0.8c0.692,1.186,1.816,0.843,2.258,0.645c0.071-0.502,0.271-0.843,0.493-1.037 C4.86,11.425,3.049,10.76,3.049,7.786c0-0.847,0.302-1.54,0.799-2.082C3.768,5.507,3.501,4.718,3.924,3.65 c0,0,0.652-0.209,2.134,0.796C6.677,4.273,7.34,4.187,8,4.184c0.659,0.003,1.323,0.089,1.943,0.261 c1.482-1.004,2.132-0.796,2.132-0.796c0.423,1.068,0.157,1.857,0.077,2.054c0.497,0.542,0.798,1.235,0.798,2.082 c0,2.981-1.814,3.637-3.543,3.829c0.279,0.24,0.527,0.713,0.527,1.437c0,1.037-0.01,1.874-0.01,2.129 c0,0.208,0.14,0.449,0.534,0.373c3.081-1.028,5.302-3.935,5.302-7.362C15.76,3.906,12.285,0.431,7.999,0.431z"/></svg>
+</span><span class="username">yamiacat</span></a>
+
+          </li>
+          
+
+          
+          <li>
+            <a href="https://twitter.com/mrjesslynnrose"><span class="icon icon--twitter"><svg viewBox="0 0 16 16"><path fill="#828282" d="M15.969,3.058c-0.586,0.26-1.217,0.436-1.878,0.515c0.675-0.405,1.194-1.045,1.438-1.809c-0.632,0.375-1.332,0.647-2.076,0.793c-0.596-0.636-1.446-1.033-2.387-1.033c-1.806,0-3.27,1.464-3.27,3.27 c0,0.256,0.029,0.506,0.085,0.745C5.163,5.404,2.753,4.102,1.14,2.124C0.859,2.607,0.698,3.168,0.698,3.767 c0,1.134,0.577,2.135,1.455,2.722C1.616,6.472,1.112,6.325,0.671,6.08c0,0.014,0,0.027,0,0.041c0,1.584,1.127,2.906,2.623,3.206 C3.02,9.402,2.731,9.442,2.433,9.442c-0.211,0-0.416-0.021-0.615-0.059c0.416,1.299,1.624,2.245,3.055,2.271 c-1.119,0.877-2.529,1.4-4.061,1.4c-0.264,0-0.524-0.015-0.78-0.046c1.447,0.928,3.166,1.469,5.013,1.469 c6.015,0,9.304-4.983,9.304-9.304c0-0.142-0.003-0.283-0.009-0.423C14.976,4.29,15.531,3.714,15.969,3.058z"/></svg>
+</span><span class="username">mrjesslynnrose</span></a>
+
+          </li>
+          
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-3">
+        <p>This primitive blog-type website will document my transition from technical-lightweight Eloi to coding-heavyweight Morlock, as I undertake CodeClan's intensive 16 week diploma in Software Development
+</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+
+
+  </body>
+
+</html>
