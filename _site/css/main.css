@@ -155,10 +155,16 @@ pre {
   color: white;
   position: relative;
   background: url(http://mr.jessica.tech/assets/morlocks-banner.jpg) repeat-x center bottom;
+  z-index: 3;
   background-size: contain; }
+
+#header-wrapper {
+  background-color: #527d8e;
+  z-index: 1; }
 
 .site-title {
   color: white;
+  /*    background-color: #527d8e; */
   font-size: 26px;
   font-weight: 300;
   line-height: 56px;
@@ -184,7 +190,7 @@ pre {
       position: absolute;
       top: 9px;
       right: 15px;
-      background-color: #fdfdfd;
+      background-color: #527d8e;
       border: 1px solid #e8e8e8;
       border-radius: 5px;
       text-align: right; }

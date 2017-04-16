@@ -10,12 +10,18 @@
     // Positioning context for the mobile navigation icon
     position: relative;
     background: url(http://mr.jessica.tech/assets/morlocks-banner.jpg) repeat-x center bottom;
+    z-index: 3;
     background-size: contain;
-    background-attachment: #0d1830;
+}
+
+#header-wrapper {
+  background-color: #527d8e;
+  z-index: 1;
 }
 
 .site-title {
     color: white;
+/*    background-color: #527d8e; */
     font-size: 26px;
     font-weight: 300;
     line-height: 56px;
@@ -52,7 +58,7 @@
         position: absolute;
         top: 9px;
         right: $spacing-unit / 2;
-        background-color: $background-color;
+        background-color: #527d8e;
         border: 1px solid $grey-color-light;
         border-radius: 5px;
         text-align: right;
