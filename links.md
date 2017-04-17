@@ -7,4 +7,4 @@ permalink: /links/
 
 For now, imagine a little gif of a stickman shovelling gravel, and UNDER CONSTRUCTION surrounded by blink tags.
 
-[Johnny Watson](http://johnnywatson.co/)
+[Johnny Watson](http://johnnywatson.co/){:target="_blank"}
