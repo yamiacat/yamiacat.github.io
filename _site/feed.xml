@@ -6,27 +6,31 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 18 Apr 2017 09:25:28 +0100</pubDate>
-    <lastBuildDate>Tue, 18 Apr 2017 09:25:28 +0100</lastBuildDate>
+    <pubDate>Tue, 18 Apr 2017 09:45:29 +0100</pubDate>
+    <lastBuildDate>Tue, 18 Apr 2017 09:45:29 +0100</lastBuildDate>
     <generator>Jekyll v3.4.3</generator>
     
       <item>
         <title>One Word Variables - Redux</title>
         <description>&lt;p&gt;While reviewing class creation we had homework simulating library software, and, being the lit geek that I am, I included this:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/v.jpg&quot; alt=&quot;Thomas Pynchon's &amp;quot;V&amp;quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/v.jpg&quot; alt=&quot;Cover of Thomas Pynchon's &amp;quot;V&amp;quot;&quot; title=&quot;Thomas Pynchon's &amp;quot;V&amp;quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;I really missed a trick, there. I could have indulged my latent desire for one word variables a little more extensively!&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/c.jpg&quot; alt=&quot;Tom McCarthy's &amp;quot;C&amp;quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/c.jpg&quot; alt=&quot;Cover of Tom McCarthy's &amp;quot;C&amp;quot;&quot; title=&quot;Tom McCarthy's &amp;quot;C&amp;quot;&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/e.jpg&quot; alt=&quot;Matt Beaumont's &amp;quot;e&amp;quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/e.jpg&quot; alt=&quot;Cover of Matt Beaumont's &amp;quot;e&amp;quot;&quot; title=&quot;Matt Beaumont's &amp;quot;e&amp;quot;&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/z.jpg&quot; alt=&quot;Therese Anne Fowler's &amp;quot;Z&amp;quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/z.jpg&quot; alt=&quot;Cover of Therese Anne Fowler's &amp;quot;Z&amp;quot;&quot; title=&quot;Therese Anne Fowler's &amp;quot;Z&amp;quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;In other news:&lt;/p&gt;
 
 &lt;h3 id=&quot;the-coding-dreams-have-begun&quot;&gt;THE CODING DREAMS HAVE BEGUN&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/code-brain.jpg&quot; alt=&quot;Circuit brain&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Image &lt;a href=&quot;http://maxpixel.freegreatpicture.com/Thought-Anatomy-Skull-Biology-Mind-Thinking-Brain-1751201&quot;&gt;from&lt;/a&gt;&lt;/p&gt;
 
 &lt;div id=&quot;disqus_thread&quot;&gt;&lt;/div&gt;
 &lt;script&gt;
