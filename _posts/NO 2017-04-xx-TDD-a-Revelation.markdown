@@ -1,21 +1,17 @@
 ---
 layout: post
-title:  "Lunchtime Quicky"
-date:   2017-04-11 13:00:33 +0000
-categories: blogpost week1 ruby
+title:  "TDD - a Conversion Experience"
+date:   2017-04-xx 17:00:33 +0000
+categories: blogpost week2
 comments: true
 ---
-Day 2 completed! I bashed out the beginning of this blogpost at lunchtime, intending to come back to it in the evening and flesh it out.
 
-As it stands, I had quite a buzz from tackling the homework straight away, including the extension activities, but then I traipsed around Edinburgh buying laundry materials and other knick-knacks, and now I'm shattered.
+Last week we were introduced to <b>T</b>esting <b>D</b>riven <b>D</b>evelopment, or TDD, and I have to say - I have found it **revelatory**.
 
-We were reviewing Ruby conditional operators and control flow, which I was pleasingly familiar with from the pre-course Codecademy.
+It's a term I've heard before, although I've never really understood it. I'm aware that software testing is a big part of making a functional product. Beta tests - when a product is pre-launched *caveat utilitor* to tech-confident users who expect to encounter bugs, and help the software developers track them down for fixing, are perhaps the most well known kind of tests among the the general public.
 
-...and I experimented, successfully, with embedding GitHub gists into Jekyll posts:
 
-Behold - a gist!
 
-<script src="https://gist.github.com/yamiacat/16e9b84352618e22d303221f3723730e.js"></script>
 
 {% if page.comments %} <div id="disqus_thread"></div>
 <script>
