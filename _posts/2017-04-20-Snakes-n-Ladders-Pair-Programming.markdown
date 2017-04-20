@@ -13,13 +13,13 @@ We briefly looked at class diagrams, which are a quick and dirty planning tool w
 
 For homework on Tuesday we were asked to think about how we'd write the mechanics for a game of [Snakes & Ladders](https://en.wikipedia.org/wiki/Snakes_and_Ladders), and draw class diagrams to suit. My first attempt didn't take too long, although in retrospect that's because I didn't think about it deeply enough:
 
-![Class Diagram 1st Draft]({{site.url}}/assets/ClassDiagram.jpg "First draft of my class diagram for snakes and ladders")
+![Class Diagram 1st Draft]({{site.url}}/assets/ClassDiagram.JPG "First draft of my class diagram for snakes and ladders")
 
 I decided early on that 'snakes' and 'ladders' could be merged together because they basically did the same thing. You step on the square, and you appear elsewhere. They're basically teleporters, so I labelled them accordingly.
 
 Going to bed happy with my efforts, I randomly awoke at 5AM and was unable to return to sleep. Thanks brain! Given some bonus time, I went back to my class diagram and realised that game squares that don't have teleporters on them don't really need to be defined. They're just numbers with no special properties so my class diagram shrank to two, and teleporters became "interesting game squares":
 
-![Class Diagram 2nd Draft]({{site.url}}/assets/ClassDiagram2.jpg "Second draft of my class diagram for snakes and ladders")
+![Class Diagram 2nd Draft]({{site.url}}/assets/ClassDiagram2.JPG "Second draft of my class diagram for snakes and ladders")
 
 Upon arrival at CodeClan Wednesday morning our cohort compared ideas, and immediately noted an extreme diversity of approach. Some people had six or seven classes, there were three or four different ideas about how to implement a game board, and a good deal of debate about which snakes & ladders 'house rules' should be included. 1d6 or 2d6? Do you need to throw a 6 to start? Are there any circumstances under which you'd get a free bonus go?
 
@@ -29,7 +29,7 @@ Some of the cohort found it a bit stressful, but I freaking loved it. Having ano
 
 I was paired with the delightful [Charlie Wood](@ch4rlie_wood). And as we compared diagrams, the gaping holes in mine quickly became apparent. I'd planned out the game board and the players, but had given no thought to how to regulate who's turn it was, or determine how a player could win! Doh! After a rapidly revised third draft, I ended up with a class diagram that looks like this:
 
-![Class Diagram 4th Draft]({{site.url}}/assets/ClassDiagram4.jpg "Fourth draft of my class diagram for snakes and ladders")
+![Class Diagram 4th Draft]({{site.url}}/assets/ClassDiagram4.JPG "Fourth draft of my class diagram for snakes and ladders")
 
 We had five hours to pair program this into existence. We were told not to worry about user interaction - just code the rules of the game. It was an absorbing, though draining five hours, and in the end we managed to cobble something together that more or less works!
 
