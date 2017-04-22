@@ -7,7 +7,7 @@ comments: true
 ---
 I can't believe the heights my code is reaching!
 
-![A laptop on a high ledge.]({{site.url}}/assets/mountain-desk-1.jpg "A laptop on a high ledge")
+![A laptop on a high ledge.]({{site.url}}/assets/mountain-desk-1.JPG "A laptop on a high ledge")
 
 Ok, cheesy puns notwithstanding*, I am actually somewhat incredulous at my progress. On Wednesday this week it strained my abilities to come up with a simple program that used two classes. In fact, I had to ask a tutor for help to get the two classes to interact properly.
 
