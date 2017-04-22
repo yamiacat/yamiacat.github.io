@@ -73,7 +73,10 @@ print_hi('Tom')
 {% endhighlight %}
 
 
+<details>
+Anything between details tags will be hidden in an expndable block!
 
+</details>
 
 
 

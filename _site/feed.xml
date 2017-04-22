@@ -6,9 +6,73 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 20 Apr 2017 17:09:56 +0100</pubDate>
-    <lastBuildDate>Thu, 20 Apr 2017 17:09:56 +0100</lastBuildDate>
+    <pubDate>Sat, 22 Apr 2017 15:15:22 +0100</pubDate>
+    <lastBuildDate>Sat, 22 Apr 2017 15:15:22 +0100</lastBuildDate>
     <generator>Jekyll v3.4.3</generator>
+    
+      <item>
+        <title>Rapid Ascents</title>
+        <description>&lt;p&gt;I can’t believe the heights my code is reaching!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/mountain-desk-1.jpg&quot; alt=&quot;A laptop on a high ledge.&quot; title=&quot;A laptop on a high ledge&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Ok, cheesy puns notwithstanding*, I am actually somewhat incredulous at my progress. On Wednesday this week it strained my abilities to come up with a simple program that used two classes. In fact, I had to ask a tutor for help to get the two classes to interact properly.&lt;/p&gt;
+
+&lt;p&gt;On Friday we were given an assignment to write some software that would roughly model a karaoke bar - rooms with playlists, guest lists, and so on. I tackled that with relish, and since I’ve got the whole weekend to work on it, I’ve maybe gone a bit mad with it. I’m happily adding classes like it ain’t no thang, and what started out as playlist management software has morphed into a sleazy dive bar simulator where you have to carefully judge how much to price-gouge the customers, water down the drinks,
+and who to eject before they get sick or violent!&lt;/p&gt;
+
+&lt;p&gt;There are even graphics!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/cccc1.jpg&quot; alt=&quot;Sexy ASCII intro screen.&quot; title=&quot;sexy ASCII intro screen&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;ACTUAL GAMEPLAY FOOTAGE!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/cccc2.jpg&quot; alt=&quot;Sexy ASCII gameplay.&quot; title=&quot;sexy ASCII gameplay&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;* I did basically climb that mountain for the sake of that pun. I had been intending to climb Arthur’s Seat (NOT PICTURED):&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/not-arthurs-seat.jpg&quot; alt=&quot;A picture of me pointing to what I thought was Arthur's seat.&quot; title=&quot;Not Arthur's Seat&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Turns out what I was pointing at there is actually Salisbury Crags, but I only realised that when I got to the top. Ho Hum.&lt;/p&gt;
+
+&lt;p&gt;Don’t worry though, dear reader - I went prepared!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/potions.jpg&quot; alt=&quot;A hip flask and coffee horn&quot; title=&quot;Potions&quot; /&gt;&lt;/p&gt;
+
+&lt;div id=&quot;disqus_thread&quot;&gt;&lt;/div&gt;
+&lt;script&gt;
+
+/**
+*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+/*
+var disqus_config = function () {
+this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+*/
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+s.src = 'https://futuremorlock.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+&lt;/script&gt;
+
+&lt;noscript&gt;Please enable JavaScript to view the &lt;a href=&quot;https://disqus.com/?ref_noscript&quot;&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;
+</description>
+        <pubDate>Sat, 22 Apr 2017 14:00:33 +0100</pubDate>
+        <link>http://localhost:4000/blogpost/week2/edinburgh/2017/04/22/rapid-ascents.html</link>
+        <guid isPermaLink="true">http://localhost:4000/blogpost/week2/edinburgh/2017/04/22/rapid-ascents.html</guid>
+        
+        
+        <category>blogpost</category>
+        
+        <category>week2</category>
+        
+        <category>edinburgh</category>
+        
+      </item>
     
       <item>
         <title>Classes, Pair Programming, and Snakes &amp; Ladders</title>
@@ -20,13 +84,13 @@
 
 &lt;p&gt;For homework on Tuesday we were asked to think about how we’d write the mechanics for a game of &lt;a href=&quot;https://en.wikipedia.org/wiki/Snakes_and_Ladders&quot;&gt;Snakes &amp;amp; Ladders&lt;/a&gt;, and draw class diagrams to suit. My first attempt didn’t take too long, although in retrospect that’s because I didn’t think about it deeply enough:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/ClassDiagram.jpg&quot; alt=&quot;Class Diagram 1st Draft&quot; title=&quot;First draft of my class diagram for snakes and ladders&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/ClassDiagram.JPG&quot; alt=&quot;Class Diagram 1st Draft&quot; title=&quot;First draft of my class diagram for snakes and ladders&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;I decided early on that ‘snakes’ and ‘ladders’ could be merged together because they basically did the same thing. You step on the square, and you appear elsewhere. They’re basically teleporters, so I labelled them accordingly.&lt;/p&gt;
 
 &lt;p&gt;Going to bed happy with my efforts, I randomly awoke at 5AM and was unable to return to sleep. Thanks brain! Given some bonus time, I went back to my class diagram and realised that game squares that don’t have teleporters on them don’t really need to be defined. They’re just numbers with no special properties so my class diagram shrank to two, and teleporters became “interesting game squares”:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/ClassDiagram2.jpg&quot; alt=&quot;Class Diagram 2nd Draft&quot; title=&quot;Second draft of my class diagram for snakes and ladders&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/ClassDiagram2.JPG&quot; alt=&quot;Class Diagram 2nd Draft&quot; title=&quot;Second draft of my class diagram for snakes and ladders&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Upon arrival at CodeClan Wednesday morning our cohort compared ideas, and immediately noted an extreme diversity of approach. Some people had six or seven classes, there were three or four different ideas about how to implement a game board, and a good deal of debate about which snakes &amp;amp; ladders ‘house rules’ should be included. 1d6 or 2d6? Do you need to throw a 6 to start? Are there any circumstances under which you’d get a free bonus go?&lt;/p&gt;
 
@@ -36,7 +100,7 @@
 
 &lt;p&gt;I was paired with the delightful &lt;a href=&quot;@ch4rlie_wood&quot;&gt;Charlie Wood&lt;/a&gt;. And as we compared diagrams, the gaping holes in mine quickly became apparent. I’d planned out the game board and the players, but had given no thought to how to regulate who’s turn it was, or determine how a player could win! Doh! After a rapidly revised third draft, I ended up with a class diagram that looks like this:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/ClassDiagram4.jpg&quot; alt=&quot;Class Diagram 4th Draft&quot; title=&quot;Fourth draft of my class diagram for snakes and ladders&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/ClassDiagram4.JPG&quot; alt=&quot;Class Diagram 4th Draft&quot; title=&quot;Fourth draft of my class diagram for snakes and ladders&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;We had five hours to pair program this into existence. We were told not to worry about user interaction - just code the rules of the game. It was an absorbing, though draining five hours, and in the end we managed to cobble something together that more or less works!&lt;/p&gt;
 
