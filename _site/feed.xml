@@ -6,15 +6,76 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 22 Apr 2017 15:15:22 +0100</pubDate>
-    <lastBuildDate>Sat, 22 Apr 2017 15:15:22 +0100</lastBuildDate>
+    <pubDate>Tue, 02 May 2017 12:54:08 +0100</pubDate>
+    <lastBuildDate>Tue, 02 May 2017 12:54:08 +0100</lastBuildDate>
     <generator>Jekyll v3.4.3</generator>
+    
+      <item>
+        <title>Immanentize the Eschaton</title>
+        <description>&lt;p&gt;Ok, so it’s been over a week since my last blogpost. This is a testament to the ass-kickingly intense course load. I’m keeping up with the homework and managing to tackle all of the extension activities, but it’s not leaving me with much motivation to look at a screen after my commitments have been met!&lt;/p&gt;
+
+&lt;p&gt;Last week we learned some SQL and how to integrate it into Ruby.&lt;/p&gt;
+
+&lt;p&gt;This week we’re using &lt;a href=&quot;http://www.sinatrarb.com/intro.html&quot;&gt;Sinatra&lt;/a&gt; to get Ruby to talk to a webpage. Thursday this week we’ll be given our first full project - produce a full on web app. Exciting!&lt;/p&gt;
+
+&lt;p&gt;Anyway, yesterday’s homework was to make a basic game of rock paper scissors, and the extension was to pretty it up somehow.&lt;/p&gt;
+
+&lt;p&gt;I, uh… I did this. Those are animated gifs of atom bomb explosions, obviously….&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/eschaton1.jpg&quot; alt=&quot;A screenshot of a garish rock paper scissors game&quot; title=&quot;Eschaton homepage&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Infinite_Jest&quot;&gt;Infinite Jest&lt;/a&gt; provided some inspiration…&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/eschaton2.jpg&quot; alt=&quot;A screenshot of a garish rock paper scissors game&quot; title=&quot;Eschaton draw page&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;With a &lt;a href=&quot;https://en.wikipedia.org/wiki/WarGames&quot;&gt;WarGames&lt;/a&gt; reference….&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/eschaton3.jpg&quot; alt=&quot;A screenshot of a garish rock paper scissors game&quot; title=&quot;Eschaton victory page&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Full project visible &lt;a href=&quot;https://github.com/yamiacat/week4-homework/tree/master/rock_paper_scissors&quot;&gt;on github!&lt;/a&gt;&lt;/p&gt;
+
+&lt;div id=&quot;disqus_thread&quot;&gt;&lt;/div&gt;
+&lt;script&gt;
+
+/**
+*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+/*
+var disqus_config = function () {
+this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+*/
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+s.src = 'https://futuremorlock.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+&lt;/script&gt;
+
+&lt;noscript&gt;Please enable JavaScript to view the &lt;a href=&quot;https://disqus.com/?ref_noscript&quot;&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;
+</description>
+        <pubDate>Tue, 02 May 2017 12:00:33 +0100</pubDate>
+        <link>http://localhost:4000/blogpost/week4/ruby/sinatra/2017/05/02/eschaton.html</link>
+        <guid isPermaLink="true">http://localhost:4000/blogpost/week4/ruby/sinatra/2017/05/02/eschaton.html</guid>
+        
+        
+        <category>blogpost</category>
+        
+        <category>week4</category>
+        
+        <category>ruby</category>
+        
+        <category>sinatra</category>
+        
+      </item>
     
       <item>
         <title>Rapid Ascents</title>
         <description>&lt;p&gt;I can’t believe the heights my code is reaching!&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/mountain-desk-1.jpg&quot; alt=&quot;A laptop on a high ledge.&quot; title=&quot;A laptop on a high ledge&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/mountain-desk-1.JPG&quot; alt=&quot;A laptop on a high ledge.&quot; title=&quot;A laptop on a high ledge&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Ok, cheesy puns notwithstanding*, I am actually somewhat incredulous at my progress. On Wednesday this week it strained my abilities to come up with a simple program that used two classes. In fact, I had to ask a tutor for help to get the two classes to interact properly.&lt;/p&gt;
 

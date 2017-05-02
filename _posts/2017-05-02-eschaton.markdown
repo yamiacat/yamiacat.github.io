@@ -1,0 +1,50 @@
+---
+layout: post
+title:  "Immanentize the Eschaton"
+date:   2017-05-02 11:00:33 +0000
+categories: blogpost week4 ruby sinatra
+comments: true
+---
+Ok, so it's been over a week since my last blogpost. This is a testament to the ass-kickingly intense course load. I'm keeping up with the homework and managing to tackle all of the extension activities, but it's not leaving me with much motivation to look at a screen after my commitments have been met!
+
+Last week we learned some SQL and how to integrate it into Ruby.
+
+This week we're using [Sinatra](http://www.sinatrarb.com/intro.html) to get Ruby to talk to a webpage. Thursday this week we'll be given our first full project - produce a full on web app. Exciting!
+
+Anyway, yesterday's homework was to make a basic game of rock paper scissors, and the extension was to pretty it up somehow.
+
+I, uh... I did this. Those are animated gifs of atom bomb explosions, obviously....
+
+![A screenshot of a garish rock paper scissors game]({{site.url}}/assets/eschaton1.jpg "Eschaton homepage")
+
+[Infinite Jest](https://en.wikipedia.org/wiki/Infinite_Jest) provided some inspiration...
+
+![A screenshot of a garish rock paper scissors game]({{site.url}}/assets/eschaton2.jpg "Eschaton draw page")
+
+With a [WarGames](https://en.wikipedia.org/wiki/WarGames) reference....
+
+![A screenshot of a garish rock paper scissors game]({{site.url}}/assets/eschaton3.jpg "Eschaton victory page")
+
+Full project visible [on github!](https://github.com/yamiacat/week4-homework/tree/master/rock_paper_scissors)
+
+
+{% if page.comments %} <div id="disqus_thread"></div>
+<script>
+
+/**
+*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+/*
+var disqus_config = function () {
+this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+*/
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+s.src = 'https://futuremorlock.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript> {% endif %}
