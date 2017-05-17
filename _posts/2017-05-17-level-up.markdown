@@ -1,0 +1,66 @@
+---
+layout: post
+title:  "Project_01 Complete: LEVEL UP"
+date:   2017-05-17 09:00:33 +0000
+categories: blogpost week5 ruby sinatra psql
+comments: true
+---
+Week 5 of CodeClan completed, (it's Wednesday of Week 6 as I type this!?) and, as ever, it's been an exhausting cognitive whirlwind. During week 5 I constructed a complete (albeit primitive) webapp from scratch, and I couldn't be more pleased with myself! In large part this is due to the retro aesthetic and the vaporwave animated gif on the home page:
+
+![An animated screenshot of my app's homescreen]({{site.url}}/assets/finished-home-screen.gif "Tunes Matter home page")
+
+We had 4 possible briefs to choose from, and since one of them involved cataloguing music, I went for that one. Click details to see the full brief, if you're interested:
+
+<details>
+
+<script src="https://gist.github.com/yamiacat/0457f1e7c4570c39f85d474b028b2402.js"></script>
+
+</details>
+
+<br>
+I spent a full day on planning. I didn't necessarily see the need to spend a full day on planning, as the project is basically rehashing the stuff we've spent the last 3 weeks on, but the instructors seemed quite insistent, and they've seemed to know what they're talking about so far, so fine.
+
+My natural tendency would be to make things as complicated as possible and try to stretch myself, but I was convinced by both the tutors and students from the cohort ahead of me to concentrate on getting the Minimal Viable Product completed first.
+
+I used a bastard hybrid of [MoSCoW](https://en.wikipedia.org/wiki/MoSCoW_method) and [Kanban](https://en.wikipedia.org/wiki/Kanban_(development)) on a Trello board to keep myself organised. Had there been other people involved in the project I would definitely have separated these out into separate boards. I also took screenshots of the board each day, so that I could create a pleasing time-lapse animation of the project's progression!
+
+![An animated screenshot of my Trello board during the project]({{site.url}}/assets/moscow-kanban.gif "Timelapse animation of my Trello board")
+
+As the project brief specified that the record store owner wanted some inventory management software that was not going to be made publicly viewable in any way, I decided that this was very much someone living in the past, so gave everything a very retro CRT vibe.
+
+The finished project includes a PSQL database with full [CRUD functionality](https://en.wikipedia.org/wiki/Create,_read,_update_and_delete) and a Ruby controlled Sinatra front end that follows [RESTful route](https://en.wikipedia.org/wiki/Representational_state_transfer) conventions. (This is in preparation for when we will be introduced to Ruby on Rails, at which point, we've been told, we'll be able to knock out the mechanics of this project in about 15 minutes... :/  )
+
+As we were supposed to be concentrating on using the technologies we've already studied, we were strictly forbidden from incorporating any JavaScript. This turned out to be a bit of an annoyance, as every time I googled one of my ideas to see how it could be done, the answer was invariably `JavaScript`...
+
+The full project is visible [on github!](https://github.com/yamiacat/CodeClan-Project-01)
+
+There's a live version available to play with on heroku! [Click here to see!](http://tunes-matter.herokuapp.com/) Don't try to put in anything that has apostrophes, as that will cause it to crash. And please don't delete everything! The system will let you, as it's functional that way. I tweeted out a link to it when I first put it on line, with those warnings, and within 20 minutes it looked like this:
+
+![Tunes_Matter index defaced with bork bork everywhere]({{site.url}}/assets/tunes_matter_defaced.png "Tunes_Matter index defaced with bork bork everywhere")
+
+Whoever wrote "b0rk b0rk" everywhere followed the letter of my requests, I suppose...
+
+If you're a fan of motion sickness, I created [a prezi](https://prezi.com/view/KwNJY7uRGt0nDdsCc3nt/) to present my project on the final day that includes a lot of my planning sketches. The first couple of slides are meant to be a trailer-type dealy, so imagine them read out in THAT VOICE. (I used an empty whisky tube to achieve the same effect, on the day.)
+
+The code snippets that are displayed show how I implemented the colour-coded low inventory warnings using some sly CSS, and how I made the search boxes capable of fuzzy search, whilst still presenting the illusion that Artist and Album names are capitalised....
+
+{% if page.comments %} <div id="disqus_thread"></div>
+<script>
+
+/**
+*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+/*
+var disqus_config = function () {
+this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+*/
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+s.src = 'https://futuremorlock.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript> {% endif %}

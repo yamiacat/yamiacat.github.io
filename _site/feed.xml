@@ -6,9 +6,89 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 02 May 2017 12:54:08 +0100</pubDate>
-    <lastBuildDate>Tue, 02 May 2017 12:54:08 +0100</lastBuildDate>
+    <pubDate>Wed, 17 May 2017 12:58:59 +0100</pubDate>
+    <lastBuildDate>Wed, 17 May 2017 12:58:59 +0100</lastBuildDate>
     <generator>Jekyll v3.4.3</generator>
+    
+      <item>
+        <title>Project_01 Complete: LEVEL UP</title>
+        <description>&lt;p&gt;Week 5 of CodeClan completed, (it’s Wednesday of Week 6 as I type this!?) and, as ever, it’s been an exhausting cognitive whirlwind. During week 5 I constructed a complete (albeit primitive) webapp from scratch, and I couldn’t be more pleased with myself! In large part this is due to the retro aesthetic and the vaporwave animated gif on the home page:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/finished-home-screen.gif&quot; alt=&quot;An animated screenshot of my app's homescreen&quot; title=&quot;Tunes Matter home page&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;We had 4 possible briefs to choose from, and since one of them involved cataloguing music, I went for that one. Click details to see the full brief, if you’re interested:&lt;/p&gt;
+
+&lt;details&gt;
+
+&lt;script src=&quot;https://gist.github.com/yamiacat/0457f1e7c4570c39f85d474b028b2402.js&quot;&gt;&lt;/script&gt;
+
+&lt;/details&gt;
+
+&lt;p&gt;&lt;br /&gt;
+I spent a full day on planning. I didn’t necessarily see the need to spend a full day on planning, as the project is basically rehashing the stuff we’ve spent the last 3 weeks on, but the instructors seemed quite insistent, and they’ve seemed to know what they’re talking about so far, so fine.&lt;/p&gt;
+
+&lt;p&gt;My natural tendency would be to make things as complicated as possible and try to stretch myself, but I was convinced by both the tutors and students from the cohort ahead of me to concentrate on getting the Minimal Viable Product completed first.&lt;/p&gt;
+
+&lt;p&gt;I used a bastard hybrid of &lt;a href=&quot;https://en.wikipedia.org/wiki/MoSCoW_method&quot;&gt;MoSCoW&lt;/a&gt; and &lt;a href=&quot;https://en.wikipedia.org/wiki/Kanban_(development)&quot;&gt;Kanban&lt;/a&gt; on a Trello board to keep myself organised. Had there been other people involved in the project I would definitely have separated these out into separate boards. I also took screenshots of the board each day, so that I could create a pleasing time-lapse animation of the project’s progression!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/moscow-kanban.gif&quot; alt=&quot;An animated screenshot of my Trello board during the project&quot; title=&quot;Timelapse animation of my Trello board&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;As the project brief specified that the record store owner wanted some inventory management software that was not going to be made publicly viewable in any way, I decided that this was very much someone living in the past, so gave everything a very retro CRT vibe.&lt;/p&gt;
+
+&lt;p&gt;The finished project includes a PSQL database with full &lt;a href=&quot;https://en.wikipedia.org/wiki/Create,_read,_update_and_delete&quot;&gt;CRUD functionality&lt;/a&gt; and a Ruby controlled Sinatra front end that follows &lt;a href=&quot;https://en.wikipedia.org/wiki/Representational_state_transfer&quot;&gt;RESTful route&lt;/a&gt; conventions. (This is in preparation for when we will be introduced to Ruby on Rails, at which point, we’ve been told, we’ll be able to knock out the mechanics of this project in about 15 minutes… :/  )&lt;/p&gt;
+
+&lt;p&gt;As we were supposed to be concentrating on using the technologies we’ve already studied, we were strictly forbidden from incorporating any JavaScript. This turned out to be a bit of an annoyance, as every time I googled one of my ideas to see how it could be done, the answer was invariably &lt;code class=&quot;highlighter-rouge&quot;&gt;JavaScript&lt;/code&gt;…&lt;/p&gt;
+
+&lt;p&gt;The full project is visible &lt;a href=&quot;https://github.com/yamiacat/CodeClan-Project-01&quot;&gt;on github!&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;There’s a live version available to play with on heroku! &lt;a href=&quot;http://tunes-matter.herokuapp.com/&quot;&gt;Click here to see!&lt;/a&gt; Don’t try to put in anything that has apostrophes, as that will cause it to crash. And please don’t delete everything! The system will let you, as it’s functional that way. I tweeted out a link to it when I first put it on line, with those warnings, and within 20 minutes it looked like this:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/tunes_matter_defaced.png&quot; alt=&quot;Tunes_Matter index defaced with bork bork everywhere&quot; title=&quot;Tunes_Matter index defaced with bork bork everywhere&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Whoever wrote “b0rk b0rk” everywhere followed the letter of my requests, I suppose…&lt;/p&gt;
+
+&lt;p&gt;If you’re a fan of motion sickness, I created &lt;a href=&quot;https://prezi.com/view/KwNJY7uRGt0nDdsCc3nt/&quot;&gt;a prezi&lt;/a&gt; to present my project on the final day that includes a lot of my planning sketches. The first couple of slides are meant to be a trailer-type dealy, so imagine them read out in THAT VOICE. (I used an empty whisky tube to achieve the same effect, on the day.)&lt;/p&gt;
+
+&lt;p&gt;The code snippets that are displayed show how I implemented the colour-coded low inventory warnings using some sly CSS, and how I made the search boxes capable of fuzzy search, whilst still presenting the illusion that Artist and Album names are capitalised….&lt;/p&gt;
+
+&lt;div id=&quot;disqus_thread&quot;&gt;&lt;/div&gt;
+&lt;script&gt;
+
+/**
+*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+/*
+var disqus_config = function () {
+this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+*/
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+s.src = 'https://futuremorlock.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+&lt;/script&gt;
+
+&lt;noscript&gt;Please enable JavaScript to view the &lt;a href=&quot;https://disqus.com/?ref_noscript&quot;&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;
+</description>
+        <pubDate>Wed, 17 May 2017 10:00:33 +0100</pubDate>
+        <link>http://localhost:4000/blogpost/week5/ruby/sinatra/psql/2017/05/17/level-up.html</link>
+        <guid isPermaLink="true">http://localhost:4000/blogpost/week5/ruby/sinatra/psql/2017/05/17/level-up.html</guid>
+        
+        
+        <category>blogpost</category>
+        
+        <category>week5</category>
+        
+        <category>ruby</category>
+        
+        <category>sinatra</category>
+        
+        <category>psql</category>
+        
+      </item>
     
       <item>
         <title>Immanentize the Eschaton</title>
@@ -729,47 +809,6 @@ s.setAttribute('data-timestamp', +new Date());
         <category>week0</category>
         
         <category>metal</category>
-        
-      </item>
-    
-      <item>
-        <title>Start (Counting) From Zero</title>
-        <description>&lt;p&gt;Right, so, welcome to the very beginning of my blog, reader!&lt;/p&gt;
-
-&lt;p&gt;I am just wrapping up the third week of pre-course work for CodeClan’s 16 week Diploma in Software Development, which I’ll be undertaking in Edinburgh. Monday 10 April marks the beginning of week 1, so I guess that makes this week 0, and starting to count from zero is apparently one of the little cognitive tweaks I need to make, so let’s start now.&lt;/p&gt;
-
-&lt;p&gt;As part of this pre-course work, I’ve been working through some of &lt;a href=&quot;https://www.codecademy.com&quot;&gt;Codecademy’s&lt;/a&gt; basic tracks, learning how to use the command line, git, ruby, and basic html and css. One of the activities, labelled “Deploy a Website”, actually turned out to use &lt;a href=&quot;http://jekyllrb.com/&quot;&gt;Jekyll&lt;/a&gt; to auto-generate this site!? I had been kind of planning to create something from scratch to practice the basics, but fine, let’s stick with this for now…&lt;/p&gt;
-
-&lt;div id=&quot;disqus_thread&quot;&gt;&lt;/div&gt;
-&lt;script&gt;
-
-/**
-*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
-*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
-/*
-var disqus_config = function () {
-this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
-this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-};
-*/
-(function() { // DON'T EDIT BELOW THIS LINE
-var d = document, s = d.createElement('script');
-s.src = 'https://futuremorlock.disqus.com/embed.js';
-s.setAttribute('data-timestamp', +new Date());
-(d.head || d.body).appendChild(s);
-})();
-&lt;/script&gt;
-
-&lt;noscript&gt;Please enable JavaScript to view the &lt;a href=&quot;https://disqus.com/?ref_noscript&quot;&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;
-</description>
-        <pubDate>Fri, 07 Apr 2017 13:33:33 +0100</pubDate>
-        <link>http://localhost:4000/blogpost/week0/2017/04/07/intro-post.html</link>
-        <guid isPermaLink="true">http://localhost:4000/blogpost/week0/2017/04/07/intro-post.html</guid>
-        
-        
-        <category>blogpost</category>
-        
-        <category>week0</category>
         
       </item>
     
